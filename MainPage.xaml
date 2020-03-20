@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Roman.MainPage" NavigationPage.HasNavigationBar="False" BackgroundColor="White">
+    
+    
+    
+    <ScrollView>
+        
+        <StackLayout TranslationY="40">
+
+            <StackLayout HorizontalOptions="StartAndExpand" TranslationX="30">
+                <Label Text="Welcome!" FontSize="20" />
+                <Label Text="Roman Khrmov" FontSize="30" FontAttributes="Bold" TextColor="Black"  />
+            </StackLayout>
+
+
+            <StackLayout Margin="10,0,10,0">
+
+                <Frame BackgroundColor="SteelBlue" CornerRadius="30" HeightRequest="300">
+
+                    <StackLayout>
+
+                        <Grid>
+
+                            <Image Source="word" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"/>
+
+                            <Label Text="William want to make a meeting" Grid.Row="1" Grid.Column="1"/>
+                            <Label Text="William want to make a meeting" Grid.Row="2" Grid.Column="1"/>
+                            <Label Text="William want to make a meeting" Grid.Row="3" Grid.Column="1"/>
+                        </Grid>
+
+
+                        <StackLayout Orientation="Horizontal" TranslationY="50" >
+
+                            <Button Text="Accepted" CornerRadius="10" HeightRequest="50" WidthRequest="150" TextColor="Black" BackgroundColor="White"/>
+                            <Button Text="Discourse" CornerRadius="10" HeightRequest="50" WidthRequest="150" TextColor="White" BackgroundColor="Transparent" BorderColor="White" BorderWidth="1"/>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </Frame>
+
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal" Margin="15,20,10,0">
+                <Label Text="Job available" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                <Label Text="See All"  FontSize="15" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+
+            <StackLayout Margin="10,0,10,0" TranslationY="-30">
+                
+            <StackLayout>
+
+                <Grid>
+
+                    <Image Source="word" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" HeightRequest="20"/>
+                    <StackLayout TranslationX="160" TranslationY="100">
+                        <Label Text="Landing page" Grid.Row="1" Grid.Column="1"/>
+                        <Label Text="$1200-by Viatutor" Grid.Row="2" Grid.Column="1"/>
+                    </StackLayout>
+                    <Button Text="♥" Grid.Row="1" Grid.Column="2" Margin="60,0,10,0" BackgroundColor="White" CornerRadius="20" TranslationY="20"/>
+                </Grid>
+
+            </StackLayout>
+
+
+            <StackLayout TranslationY="-50">
+
+                <Grid>
+
+                    <Image Source="tele" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" HeightRequest="20"/>
+                    <StackLayout TranslationX="160" TranslationY="100">
+                        <Label Text="Landing page" Grid.Row="1" Grid.Column="1"/>
+                        <Label Text="$1200-by Viatutor" Grid.Row="2" Grid.Column="1"/>
+                    </StackLayout>
+                    <Button Text="♥" Grid.Row="1" Grid.Column="2" Margin="60,0,10,0" BackgroundColor="Orange" CornerRadius="40" TranslationY="20" x:Name="btn1"/>
+                </Grid>
+
+            </StackLayout >
+
+            <StackLayout TranslationY="-100">
+
+                <Grid>
+
+                    <Image Source="word" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" HeightRequest="20"/>
+                    <StackLayout TranslationX="160" TranslationY="100">
+                    <Label Text="Landing page" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="$1200-by Viatutor" Grid.Row="2" Grid.Column="1"/>
+                    </StackLayout>
+                    <Button Text="♥" Grid.Row="1" Grid.Column="2" Margin="60,0,10,0" BackgroundColor="White" CornerRadius="20" TranslationY="20"/>
+                </Grid>
+
+            </StackLayout>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" TranslationY="-70" HorizontalOptions="Center">
+
+                <Image Source="gamme" Aspect="AspectFill" HeightRequest="50" WidthRequest="60"/>
+                <Image Source="gamme" Aspect="AspectFill" HeightRequest="50" WidthRequest="60"/>
+                <Image Source="gamme" Aspect="AspectFill" HeightRequest="50" WidthRequest="60"/>
+                <Image Source="gamme" Aspect="AspectFill" HeightRequest="50" WidthRequest="60"/>
+                <Image Source="gamme" Aspect="AspectFill" HeightRequest="50" WidthRequest="60"/>
+                
+
+            </StackLayout>
+
+
+        </StackLayout>
+        
+    </ScrollView>
+    
+    
+</ContentPage>
